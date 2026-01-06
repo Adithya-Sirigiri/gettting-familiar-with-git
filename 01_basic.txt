@@ -1,0 +1,91 @@
+Hi, I’m Adithya, a student at IIIT Sonepat.
+This repository contains notes and commands to understand Git and GitHub, from basic to advanced levels.
+
+-->GIT AND GITHUB – BASIC NOTES
+
+WHAT IS GIT
+ 
+- Git is a distributed Version Control System (VCS)
+- Used to track changes in files over time
+- Maintains complete history of a project
+- Works locally on your computer
+- Allows:
+  - Commit history
+  - Branching and merging
+  - Rollback to previous versions
+- Works offline
+- Installed on the system using Git software
+- Command-line tool (git)
+
+WHAT IS GITHUB
+ 
+- GitHub is a cloud-based hosting platform
+- Used to store Git repositories online
+- Acts as a remote repository
+- Helps in:
+  - Backup of code
+  - Collaboration with others
+  - Sharing projects publicly or privately
+- Built on top of Git
+- Requires Git repositories to work
+- Accessed via browser or Git commands
+
+DIFFERENCE BETWEEN GIT AND GITHUB
+ 
+Git:
+- Version control system
+- Installed locally
+- Tracks file changes
+- Works offline
+- Creates and manages commits
+
+GitHub:
+- Hosting platform
+- Web-based
+- Stores repositories online
+- Requires internet
+- Displays and manages Git repositories
+
+ 
+CORE GIT CONCEPTS (4 AREAS)
+ 
+
+1. WORKING DIRECTORY
+- Actual project files
+- Where code is written or modified
+- Changes are not tracked yet
+
+2. STAGING AREA
+- Temporary holding area
+- Files selected for the next commit
+- Files are added using:
+  git add
+
+3. LOCAL REPOSITORY
+- Stored inside the .git folder
+- Contains commit history and branches
+- Created using:
+  git commit
+
+4. REMOTE REPOSITORY
+- Online copy of the repository (GitHub)
+- Used for backup and sharing
+- Updated using:
+  git push
+
+ 
+GIT WORKFLOW SUMMARY
+ 
+Working Directory
+→ Staging Area
+→ Local Repository
+→ Remote Repository
+
+ 
+ONE-LINE MEMORY RULES
+ 
+- Git tracks changes
+- GitHub stores repositories
+- Staging selects files
+- Commit saves history
+- Push uploads to GitHub
